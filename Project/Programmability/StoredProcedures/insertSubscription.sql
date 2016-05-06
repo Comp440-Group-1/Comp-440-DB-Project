@@ -25,7 +25,7 @@ CREATE PROCEDURE InsertSubscription
 	@customerLastName varchar(25),
 	@customerEmail varchar(80),
 	@companyId int,
-	@customerUsername varchar(20)
+	@customerUsername varchar(20),
 	@customerId int
 AS
 BEGIN
